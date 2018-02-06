@@ -10,6 +10,7 @@ class Navbar extends Component {
           <li className="itemLeft">Test Your Memory</li>
           <li className="itemCenter"></li>
           <li className="itemRight">Score: {this.props.score}</li>
+          <li className="itemRight2">Hi-Score: {this.props.hiscore} </li>
         </ul>
       </nav>
     );

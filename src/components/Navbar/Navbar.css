@@ -4,15 +4,19 @@
   }
   
   .itemLeft {
-    width: 15%;
+    width: 10%;
   }
   
   .itemCenter {
-      width: 70%;
+      width: 40%;
   }
   
   .itemRight {
-    width: 15%;
+    width: 25%;
+  }
+
+  .itemRight2 {
+    width: 25%;
   }
   
   .navbar {

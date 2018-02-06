@@ -11,7 +11,8 @@ class App extends Component {
   state = {
     char,
     clickedChar: [],
-    score: 0
+    score: 0,
+    hiscore: 0
   };
 
 //when you click on a card ... the char is taken out of the array
@@ -66,6 +67,7 @@ class App extends Component {
       <div>
         <Navbar 
           score={this.state.score}
+          hiscore={this.state.hiscore}
         />
         <Jumbotron />
         <div className="wrapper">
